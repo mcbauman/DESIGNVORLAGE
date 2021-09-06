@@ -1,20 +1,32 @@
 :root{
     --maincolor:red;
-    --highlightedbackground:linear-gradient(180deg red black red);
-
+    --highlightedbackground:linear-gradient(180deg, var(--maincolor), black, var(--maincolor));
+    --textcolor:white;
 }
 body{
-    background-color: beige;
+    margin: 0;
 }
 
 /* ----------------------------------------------------------------------
 The HEADER
 ---------------------------------------------------------------------- */
+Header{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    background: var(--highlightedbackground);
+    color: var(--textcolor);
+    font-variant: small-caps;
+}
 
-
+H1{
+    margin: 0;
+    padding: 15px 5px;
+}
 
 img{
-    width: 10vw;
+    width: 5vw;
+    margin-right: 5px;;
 }
 
 
