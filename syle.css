@@ -1,0 +1,14 @@
+:root{
+    --maincolor:red;
+    --highlightedbackground:linear-gradient(180deg red black red);
+
+}
+
+
+
+
+
+
+img{
+    width: 10vw;
+}
