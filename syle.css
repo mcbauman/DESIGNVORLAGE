@@ -2,9 +2,14 @@
     --maincolor:red;
     --highlightedbackground:linear-gradient(180deg, var(--maincolor), black, var(--maincolor));
     --textcolor:white;
+    --secondcolor:darkred;
+    --textbackground:lightgrey;
+
 }
 body{
     margin: 0;
+    padding:0;
+    font-size: 1.5rem;
 }
 
 /* ----------------------------------------------------------------------
@@ -33,15 +38,64 @@ img{
 /* ----------------------------------------------------------------------
 The MENU
 ---------------------------------------------------------------------- */
+nav{
+    background-color: var(--secondcolor);
+    color:var(--textcolor);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+ol{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
 
-
+li{
+    list-style-type: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: var(--textcolor);
+    
+}
+a:hover{
+    background: var(--highlightedbackground);
+    color:lightgrey;
+    box-shadow: 5px 5px 10px black;
+}
 
 /* ----------------------------------------------------------------------
 The MAIN
 ---------------------------------------------------------------------- */
+main{
+    width: 1200px;
+    text-align: justify;
+    margin: 0 auto;
+}
 
+article{
+    background-color: var(--textbackground);
+    border-radius: 10px;
+    padding:10px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+h2{
+    font-variant: small-caps;
+}
 
 
 /* ----------------------------------------------------------------------
 The FOOTER
 ---------------------------------------------------------------------- */
+
+footer{
+    background-color: var(--secondcolor)
+}
