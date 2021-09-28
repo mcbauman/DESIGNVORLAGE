@@ -1,8 +1,8 @@
 :root{
-    --maincolor:red;
-    --highlightedbackground:linear-gradient(180deg, var(--maincolor), rgb(71, 71, 71), var(--maincolor));
+    --maincolor:brown;
+    --highlightedbackground:linear-gradient(180deg, var(--maincolor), rgb(185, 151, 76), var(--maincolor));
     --textcolor:white;
-    --secondcolor:darkred;
+    --secondcolor:brown;
     --textbackground:lightgrey;
 
 }
